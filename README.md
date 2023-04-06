@@ -35,4 +35,11 @@ We used the following methodlogy for creating our synthetic dataset and training
 
 The following figure shows the schematic diagram of the abovementioned steps: 
 
-![method](https://user-images.githubusercontent.com/47879342/230292740-a32ae9b6-b70f-41d1-b481-221f5a37444e.png)
+<img src="https://user-images.githubusercontent.com/47879342/230292740-a32ae9b6-b70f-41d1-b481-221f5a37444e.png" alt="method" width="700"/>
+
+3- Climate change detection
+These type of models work on detecting any changes to a specific area based on processign the sattelite images. The simple case is to compare two images and detect any changes of the area that could be : adding buildings, land coverage and water invasion and flooding with the focus of climate disaster detection. Following are some examples of iamge detection. 
+
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg" alt="before" width="700"/>
+
+One potential work here is to to train a model
