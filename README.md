@@ -40,6 +40,20 @@ The following figure shows the schematic diagram of the abovementioned steps:
 3- Climate change detection
 These type of models work on detecting any changes to a specific area based on processign the sattelite images. The simple case is to compare two images and detect any changes of the area that could be : adding buildings, land coverage and water invasion and flooding with the focus of climate disaster detection. Following are some examples of iamge detection. 
 
-<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg" alt="before" width="700"/>
+Example 1: 
 
-One potential work here is to to train a model
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg" alt="before" width="500"/>
+
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01202014.jpg" alt="after" width="500"/>
+
+Example 2: 
+
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/ArcadiaLake/ArcadiaLake1986.jpg" alt="after" width="500"/>
+
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/ArcadiaLake/ArcadiaLake2011.jpg" alt="after" width="500"/>
+
+    
+
+One potential work here is to to train a model to receive the sequence of images and forecast the future shape of area. The following pipeline could be considered here: 
+Image sequence----> finding the incremental changes between each two images in sequence ----> forecasting the next image
+Also based on flooding area and after detecting the potential flooding areas, forecasting the damage of flooding to different areas. 
