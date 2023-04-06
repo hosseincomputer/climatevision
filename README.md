@@ -5,7 +5,7 @@ There are four aspects of comouter vision that could be applied to climate envir
 
 2- Climate object detection/ Segmentation 
 
-3- climnate change
+3- Climnate change
 
 4- Climate forecasting 
 
