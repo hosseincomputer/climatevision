@@ -39,7 +39,7 @@ The following figure shows the schematic diagram of the abovementioned steps:
 
 We have evaluated our climate images by the SAM model which has been released by the Facebook vision team. Throught our test we experimented several images from simple to fuzzy/complex. We played by several factors but interestingly the IOE threshold play a great role in mask detection. 
 
-3- Climate change detection
+## 3- Climate change detection
 These type of models work on detecting any changes to a specific area based on processign the sattelite images. The simple case is to compare two images and detect any changes of the area that could be : adding buildings, land coverage and water invasion and flooding with the focus of climate disaster detection. Following are some examples of iamge detection. 
 
 Example 1: 
