@@ -5,14 +5,14 @@ There are four aspects of comouter vision that could be applied to climate envir
 
 ## 2- Climate object detection/ Segmentation 
 
-3- Climnate change
+## 3- Climnate change
 
-4- Climate forecasting 
+## 4- Climate forecasting 
 
-1- Climate classification:
+## 1- Climate classification:
 The purpose of this type is to receive climate images and train an image processing model and after trianing being able to classify objects/sectors/ areas of a cliamte. This could be categorized in the image classficaition. There should be enough images for each object othervise the model would be biased towards the objects having more images in the training set. 
 
-2- Climate object detection (Image Segmentation): 
+## 2- Climate object detection (Image Segmentation): 
 The purpose of thsi type is to receive climate images and train an object detection model capable of detecting desired objects in the cliamte environment. In the agricultral domain, one very demanding service is an object detection model which can process a landcover ( a crop filed or a pasture) and detect the weeds. The weeds are a seriouse problem for diary farmers. Every year they need to spend tons of dollars and tens of hours to investigate their pastures and detect weeds. They also assign tremendouse amount of time and energy for weed destroying. 
 
 ![1](https://user-images.githubusercontent.com/47879342/230290452-4117af94-b9c0-4b5c-827f-1fe340250a47.png)
