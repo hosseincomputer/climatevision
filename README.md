@@ -43,7 +43,9 @@ When it comes to the functionalities of MaskRCNN and SAM, both operate on pixel-
 Another key difference is the size of their trained models. MaskRCNN's model size is 200MB, while SAM's is approximately 2.5GB, which could potentially cause latency issues during model transfer and deployment in real-world applications.
 
 ### The Training Time and Inference Time 
-The training time of MaskrCNN is much lower than SAM. This is also true about the inference time. For high resolution images you might receive a RAM crash message. (I received this several times :))
+The training time of MaskrCNN is much lower than SAM. This is also true about the inference time. For high resolution images you might receive a RAM crash message. (I received this several times :)) For inference time, I scaled an image into different resolutions all in 3:4 ratio. And I went through recording the inference time of each. The following chart is showing the inference time. 
+![image](https://user-images.githubusercontent.com/47879342/234511994-73b16376-c748-48d7-b4e1-9f1d043e5a61.png)
+
 
 ### The output
 
