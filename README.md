@@ -78,13 +78,35 @@ In the following section, I demonstrate how SAM performs on various images with 
 <img src="https://user-images.githubusercontent.com/47879342/234500073-ac7b287d-c2dc-4e90-8b96-d176417c5f33.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234500081-7a1bad90-07fd-4975-a5ab-8b1f1b254203.png" alt="before" width="400"/>
 
 
-
-
-
 #### 5- A colorful background
+
+<img src="https://user-images.githubusercontent.com/47879342/234500601-a195fece-445c-481f-b07d-766fd5e03354.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234500613-0880c748-afba-48b1-ab51-527797d83006.png" alt="before" width="400"/>
+
+
+
 #### 6- Putting glassy objects 
+
+<img src="https://user-images.githubusercontent.com/47879342/234500849-a6256f9d-5754-44d8-8694-450e5a08687f.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234500860-09d4d89e-d9af-4666-bb12-488e31abd653.png" alt="before" width="400"/>
+
+
+
 #### 7- Multiple objects on a simple background
+
+
+<img src="https://user-images.githubusercontent.com/47879342/234501080-51c7922c-e34b-4f3c-b52a-db3ce57ab557.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234501094-d9e57e13-259b-4545-b508-d7e269d50da3.png" alt="before" width="400"/>
+
+
+
+
 #### 8- Multiple objects on a fuzzy background
+
+
+<img src="https://user-images.githubusercontent.com/47879342/234501367-e2a38841-7722-4a29-8f4d-b9e3f2cf7ef8.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234501381-ee1ed909-932a-4882-91dc-a2890182e08d.png" alt="before" width="400"/>
+
+
+
+
+
 #### 9- Various objects on a fuzzy background
 #### 10- Multiple objects on a fuzzy background
 
