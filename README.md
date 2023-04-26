@@ -48,6 +48,9 @@ The training time of MaskrCNN is much lower than SAM. This is also true about th
 ### The output
 
 ### SAM segements study
+This ssubsection demonstrates the impact of UoI on the number of masks. 
+![image](https://user-images.githubusercontent.com/47879342/234494545-c433d4bd-d32f-4184-80b9-0fab638f0629.png)
+
 
 ### Image resolution study ====> image resolution vs running time
 
