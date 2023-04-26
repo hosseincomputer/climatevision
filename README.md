@@ -49,7 +49,8 @@ The training time of MaskrCNN is much lower than SAM. This is also true about th
 
 ### SAM segements study by UOI prediction
 This section aims to demonstrate the impact of UoI on the number of detected masks. The chart displays that increasing the prediction ratio of UoI leads to a more conservative model, resulting in fewer detected masks. Conversely, a lower prediction ratio will lead to more masks being detected, as the model becomes less strict in its criteria. The following chart illustrates this trend, and the subsequent two images display the model's output for different UoI prediction ratios. By setting a low UoI prediction ratio of 0.74, the model detects around 500 masks. In contrast, setting a higher prediction ratio of 0.92 results in the detection of only 100 masks. This highlights the importance of studying and properly setting parameters such as UoI in determining the model's behavior.
-![image](https://user-images.githubusercontent.com/47879342/234495071-7c227ad4-5955-4852-8f09-c1dcd34eed53.png)
+![image](https://user-images.githubusercontent.com/47879342/234497624-cd5d7ab6-fe5f-48a0-a0b0-9d209169bcc6.png)
+
 
 <img src="https://user-images.githubusercontent.com/47879342/234495649-ed2df3cf-735d-4c3c-a675-7dfbc4a85521.png" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234495665-b332f19c-631f-4e90-b4b4-e2fa33b427e1.png" alt="before" width="400"/>
 
