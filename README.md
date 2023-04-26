@@ -52,7 +52,19 @@ The training time of MaskrCNN is much lower than SAM. This is also true about th
 ### Image resolution study ====> image resolution vs running time
 
 ### Studying of image complexity: 
-1 an object
+In the following section, I demonstrate how SAM performs on various images with different levels of complexity. The complexity is defined by the presence of foreground and background elements, such as single or multiple objects in a simple or fuzzy background. The following subsections show how I increased the images complexity: 
+
+#### 1- An object on a simple background
+#### 2- Two objects on a simple background
+#### 3- Two objects on a fuzzy background
+#### 4- Two objectes on a complex background
+#### 5- A colorful background
+#### 6- Putting glassy objects 
+#### 7- Multiple objects on a simple background
+#### 8- Multiple objects on a fuzzy background
+#### 9- Various objects on a fuzzy background
+#### 10- Multiple objects on a fuzzy background
+
 2- two objects
 3- multiple objects
 4- fuzzy background
