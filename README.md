@@ -48,9 +48,11 @@ The training time of MaskrCNN is much lower than SAM. This is also true about th
 ### The output
 
 ### SAM segements study
-This ssubsection demonstrates the impact of UoI on the number of masks. 
-![image](https://user-images.githubusercontent.com/47879342/234494545-c433d4bd-d32f-4184-80b9-0fab638f0629.png)
+This ssubsection demonstrates the impact of UoI on the number of masks. The chart shows that by increasing the prediction ratio of UOI the model is more conservative to to detect masks leading to less number of masks. By having lower number the model consider more masks; by the reason of being less strict on masks. The following chart shows this story and the next two images are the output of model's detection based on a lower number or a higher number for UoI prediction. 
+![image](https://user-images.githubusercontent.com/47879342/234495071-7c227ad4-5955-4852-8f09-c1dcd34eed53.png)
 
+![3456_4608](https://user-images.githubusercontent.com/47879342/234495649-ed2df3cf-735d-4c3c-a675-7dfbc4a85521.png)
+![more_masks](https://user-images.githubusercontent.com/47879342/234495665-b332f19c-631f-4e90-b4b4-e2fa33b427e1.png)
 
 ### Image resolution study ====> image resolution vs running time
 
