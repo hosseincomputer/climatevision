@@ -61,9 +61,26 @@ This section aims to demonstrate the impact of UoI on the number of detected mas
 In the following section, I demonstrate how SAM performs on various images with different levels of complexity. The complexity is defined by the presence of foreground and background elements, such as single or multiple objects in a simple or fuzzy background. The following subsections show how I increased the images complexity: 
 
 #### 1- An object on a simple background
+<img src="https://user-images.githubusercontent.com/47879342/234499088-4abcb2ca-3825-4534-92aa-0687fb89e2f1.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234499097-2eba37eb-87c1-40f8-8ece-0d3a4f3368b7.png" alt="before" width="400"/>
+
 #### 2- Two objects on a simple background
+<img src="https://user-images.githubusercontent.com/47879342/234499411-7d0256e3-9d2c-4e43-8053-06bcb1bbf30d.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234499422-06c4cf5a-9f1d-4e44-901c-5697807fd2be.png" alt="before" width="400"/>
+
+
 #### 3- Two objects on a fuzzy background
+
+<img src="https://user-images.githubusercontent.com/47879342/234499638-5a406e55-cf68-4c5c-9dab-01e22610b8a9.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234499648-2e5b84cd-ca0c-454c-a323-f556341df32e.png" alt="before" width="400"/>
+
+
+
 #### 4- Two objectes on a complex background
+
+<img src="https://user-images.githubusercontent.com/47879342/234500073-ac7b287d-c2dc-4e90-8b96-d176417c5f33.jpg" alt="before" width="400"/><img src="https://user-images.githubusercontent.com/47879342/234500081-7a1bad90-07fd-4975-a5ab-8b1f1b254203.png" alt="before" width="400"/>
+
+
+
+
+
 #### 5- A colorful background
 #### 6- Putting glassy objects 
 #### 7- Multiple objects on a simple background
