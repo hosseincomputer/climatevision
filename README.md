@@ -40,8 +40,12 @@ The following figure shows the schematic diagram of the abovementioned steps:
 We have evaluated our climate images by the SAM model which has been released by the Facebook vision team. Throught our test we experimented several images from simple to fuzzy/complex. We played by several factors but interestingly the IOE threshold play a great role in mask detection. 
 
 ### The model comparison
+When it comes to the functionalities of MaskRCNN and SAM, both operate on pixel-wise images and generate masks for the objects they can recognize within an image. However, there is a significant distinction between the two. MaskRCNN is trained by targeting a specific object within an image, whereas SAM can detect any object present in an image.
 
-### the runtime inference
+Another key difference is the size of their trained models. MaskRCNN's model size is 200MB, while SAM's is approximately 2.5GB, which could potentially cause latency issues during model transfer and deployment in real-world applications.
+
+### The Training Time and Inference Time 
+The training time of MaskrCNN is much lower than SAM. This is also true about the inference time. For high resolution images you might receive a RAM crash message. (I received this several times :))
 
 ### The output
 
