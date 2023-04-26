@@ -14,7 +14,7 @@ The purpose of this type is to receive climate images and train an image process
 
 ## 2- Climate object detection (Image Segmentation): 
 The purpose of thsi type is to receive climate images and train an object detection model capable of detecting desired objects in the cliamte environment. In the agricultral domain, one very demanding service is an object detection model which can process a landcover ( a crop filed or a pasture) and detect the weeds. The weeds are a seriouse problem for diary farmers. Every year they need to spend tons of dollars and tens of hours to investigate their pastures and detect weeds. They also assign tremendouse amount of time and energy for weed destroying. 
-
+<img src="[https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg] alt="before" width="400"/>
 ![1](https://user-images.githubusercontent.com/47879342/230290452-4117af94-b9c0-4b5c-827f-1fe340250a47.png)
 ![5](https://user-images.githubusercontent.com/47879342/230290484-8daa44d7-46e8-436e-a34e-e903d99fd291.png)
 
@@ -35,7 +35,7 @@ We used the following methodlogy for creating our synthetic dataset and training
 
 The following figure shows the schematic diagram of the abovementioned steps: 
 
-<img src="https://user-images.githubusercontent.com/47879342/230292740-a32ae9b6-b70f-41d1-b481-221f5a37444e.png" alt="method" width="700"/>
+<img src="https://user-images.githubusercontent.com/47879342/230292740-a32ae9b6-b70f-41d1-b481-221f5a37444e.png" alt="method" width="400"/>
 
 We have evaluated our climate images by the SAM model which has been released by the Facebook vision team. Throught our test we experimented several images from simple to fuzzy/complex. We played by several factors but interestingly the IOE threshold play a great role in mask detection. 
 
