@@ -14,12 +14,15 @@ The purpose of this type is to receive climate images and train an image process
 
 ## 2- Climate object detection (Image Segmentation): 
 The purpose of thsi type is to receive climate images and train an object detection model capable of detecting desired objects in the cliamte environment. In the agricultral domain, one very demanding service is an object detection model which can process a landcover ( a crop filed or a pasture) and detect the weeds. The weeds are a seriouse problem for diary farmers. Every year they need to spend tons of dollars and tens of hours to investigate their pastures and detect weeds. They also assign tremendouse amount of time and energy for weed destroying. 
-<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg alt="before" width="400"/>
+
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg" alt="before" width="400"/>
 ![1](https://user-images.githubusercontent.com/47879342/230290452-4117af94-b9c0-4b5c-827f-1fe340250a47.png)
 ![5](https://user-images.githubusercontent.com/47879342/230290484-8daa44d7-46e8-436e-a34e-e903d99fd291.png)
 
 ![1](https://user-images.githubusercontent.com/47879342/230290529-5a58f21d-ae0f-4fd8-8b8d-c9b707d1d0d9.png)
 ![5](https://user-images.githubusercontent.com/47879342/230290800-d71e5fc0-12fa-4e95-85a2-c368f094c5ee.png)
+
+<img src="https://github.com/ChaymaBouzaidii/Change-detection-in-multitemporal-satellite-images/blob/master/images/Argentina/Argentina_01131994.jpg" alt="before" width="500"/>
 
 The above photos show the image segmentation output of a MaskRCNN model that has being trained for pasture based images. The photos show theresults based on plant and leave objects. If we want to hsow the resutls of whole plants we need to train the models based on whole plants. For the leave based we need to create our dataset based on individual leaves. 
 
