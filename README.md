@@ -53,7 +53,7 @@ The training time of MaskrCNN is much lower than SAM. This is also true about th
 
 ### Image resolution study ====> image resolution vs running time
 
-### studying of image complexity: 
+### Studying of image complexity: 
 1 an object
 2- two objects
 3- multiple objects
