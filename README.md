@@ -1,4 +1,6 @@
 # Climatevision: A Technical Comparison Between SAM and MaskRCNN
+
+## Introduction
 This is a study of a review on image processing models for object detection. I have used two models of SAM and MaskRCNN from the links below: 
 
 https://github.com/facebookresearch/segment-anything
@@ -14,14 +16,6 @@ MaskRCNN, on the other hand, is an evolution of Fasterrcnn that allows for maski
 In terms of in-depth analysis, SAM and MaskRCNN have different strengths and weaknesses. SAM offers high-level control over parameters, making it easier to fine-tune for specific use cases. However, its large size can be a disadvantage when working with limited resources. MaskRCNN is more compatible with existing datasets and provides more options for fine-tuning the model, but it may require more effort to get started with. Ultimately, the choice between SAM and MaskRCNN will depend on the specific needs of the user and their project requirements.  
 
 There are four aspects of comouter vision that could be applied to climate environmetns:
-
-## 1- Climate classification
-
-## 2- Climate object detection/ Segmentation 
-
-## 3- Climnate change
-
-## 4- Climate forecasting 
 
 ## 1- Climate classification:
 The purpose of this type is to receive climate images and train an image processing model and after trianing being able to classify objects/sectors/ areas of a cliamte. This could be categorized in the image classficaition. There should be enough images for each object othervise the model would be biased towards the objects having more images in the training set. 
