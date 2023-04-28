@@ -1,11 +1,13 @@
 # Climatevision: A Technical Comparison Between SAM and MaskRCNN
-This is a study of a review on image processing models for object detection. I have used the matrials from the links below: 
-There are four aspects of comouter vision that could be applied to climate environmetns:
+This is a study of a review on image processing models for object detection. I have used two models of SAM and MaskRCNN from the links below: 
 
 https://github.com/facebookresearch/segment-anything
 
 https://github.com/matterport/Mask_RCNN
 
+The both links provide same functionalities on images which are image segmentation and masking. SAM is a new model of object segmentation employed and designed by Facebook trained by millions of images. The final output of the image are segemented images based on color thresholding. MaskRCNN on the other side is evolved from Fasterrcnn to enable masking the objects in an image by putting a mask on the boundary of the detected objects. MaskRCNN is compatibel with COCO dataset and provides some features for training the model such as control of tuning the last laeyrs and defining model's configuration. 
+
+There are four aspects of comouter vision that could be applied to climate environmetns:
 
 ## 1- Climate classification
 
