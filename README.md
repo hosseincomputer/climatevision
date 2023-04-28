@@ -5,7 +5,13 @@ https://github.com/facebookresearch/segment-anything
 
 https://github.com/matterport/Mask_RCNN
 
-The both links provide same functionalities on images which are image segmentation and masking. SAM is a new model of object segmentation employed and designed by Facebook trained by millions of images. The final output of the image are segemented images based on color thresholding. MaskRCNN on the other side is evolved from Fasterrcnn to enable masking the objects in an image by putting a mask on the boundary of the detected objects. MaskRCNN is compatibel with COCO dataset and provides some features for training the model such as control of tuning the last laeyrs and defining model's configuration. 
+Both of these computer vision repositories offer similar functionalities for image analysis, specifically image segmentation and masking. However, SAM and MaskRCNN utilize different methods for achieving these goals.
+
+SAM is a newer model of object segmentation developed by Facebook and trained on millions of images. It employs color thresholding to segment the images and produces segmented images as the final output. SAM offers a high-level control over the model's parameters and is larger in size (2.5 GB) compared to MaskRCNN (which is just 200 mb).
+
+MaskRCNN, on the other hand, is an evolution of Fasterrcnn that allows for masking objects in an image by putting a mask on the boundary of the detected objects. It is compatible with the COCO dataset and offers features for training the model, such as the ability to control tuning of the last layers and define the model's configuration.
+
+In terms of in-depth analysis, SAM and MaskRCNN have different strengths and weaknesses. SAM offers high-level control over parameters, making it easier to fine-tune for specific use cases. However, its large size can be a disadvantage when working with limited resources. MaskRCNN is more compatible with existing datasets and provides more options for fine-tuning the model, but it may require more effort to get started with. Ultimately, the choice between SAM and MaskRCNN will depend on the specific needs of the user and their project requirements.  
 
 There are four aspects of comouter vision that could be applied to climate environmetns:
 
